@@ -30,7 +30,11 @@ const router = createBrowserRouter([
 ]);
 
 export default function App() {
-  return <div className='w-11/12 m-auto '>
-    <RouterProvider router={router}/>
-  </div>
+  return (
+    <div className='wrapper'>
+      <div className='w-10/12 m-auto'>
+        <RouterProvider router={router}/>
+      </div>
+    </div>
+  )
 }
