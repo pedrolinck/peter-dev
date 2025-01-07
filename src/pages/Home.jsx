@@ -1,13 +1,14 @@
 import '../index.css';
+import profileImg from '../assets/profile.png'
 
 export default function HomePage(){
 
   return (
     <>
       <main >
-        <section className="flex justify-between ">
+        <section className="flex justify-between mt-16">
           <div className="w-max">
-            <img className="rounded-full" src="./src/assets/profile.png" alt="profile picture"/>
+            <img className="rounded-full" src={profileImg} alt="profile picture"/>
           </div>
           <div className="w-full flex justify-evenly">
             <div className="w-1/2 ">
