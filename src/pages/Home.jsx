@@ -7,7 +7,7 @@ export default function HomePage(){
       <main >
         <section className="flex justify-evenly ">
           <div >
-            <img className="rounded-full rounded-bl-3xl imgc" src="./src/assets/profile.png" alt="profile picture"/>
+            <img className="rounded-full" src="./src/assets/profile.png" alt="profile picture"/>
           </div>
           <div className="w-full flex justify-evenly">
             <div className="w-1/2 ">
