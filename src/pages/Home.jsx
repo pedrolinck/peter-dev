@@ -5,8 +5,8 @@ export default function HomePage(){
   return (
     <>
       <main >
-        <section className="flex justify-evenly ">
-          <div >
+        <section className="flex justify-between ">
+          <div className="w-max">
             <img className="rounded-full" src="./src/assets/profile.png" alt="profile picture"/>
           </div>
           <div className="w-full flex justify-evenly">
